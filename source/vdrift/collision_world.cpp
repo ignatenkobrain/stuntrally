@@ -26,8 +26,8 @@ void IntTickCallback(btDynamicsWorld *world, btScalar timeStep)
 	for (int i=0; i < numManifolds; ++i)  // pairs
 	{
 		btPersistentManifold* contactManifold = world->getDispatcher()->getManifoldByIndexInternal(i);
-		btCollisionObject* bA = static_cast<btCollisionObject*>(contactManifold->getBody0());
-		btCollisionObject* bB = static_cast<btCollisionObject*>(contactManifold->getBody1());
+		const btCollisionObject* bA = contactManifold->getBody0();
+		const btCollisionObject* bB = contactManifold->getBody1();
 	
 		if (bA->getCollisionFlags() & btCollisionObject::CF_NO_CONTACT_RESPONSE ||
 			bB->getCollisionFlags() & btCollisionObject::CF_NO_CONTACT_RESPONSE)  // ignore triggers
@@ -75,8 +75,8 @@ void DynamicsWorld::solveConstraints(btContactSolverInfo& solverInfo)
 	for (int i=0; i < numManifolds; ++i)  // pairs
 	{
 		btPersistentManifold* contactManifold =  getDispatcher()->getManifoldByIndexInternal(i);
-		btCollisionObject* bA = static_cast<btCollisionObject*>(contactManifold->getBody0());
-		btCollisionObject* bB = static_cast<btCollisionObject*>(contactManifold->getBody1());
+		const btCollisionObject* bA = contactManifold->getBody0();
+		const btCollisionObject* bB = contactManifold->getBody1();
 	
 		void* pA = bA->getUserPointer(), *pB = bB->getUserPointer();
 		//if (pA && pB)
@@ -376,7 +376,7 @@ struct MyRayResultCallback : public btCollisionWorld::RayResultCallback
 		
 	virtual	btScalar	addSingleResult(btCollisionWorld::LocalRayResult& rayResult, bool normalInWorldSpace)
 	{
-		btCollisionObject* obj = rayResult.m_collisionObject;
+		const btCollisionObject* obj = rayResult.m_collisionObject;
 		if (obj == m_exclude)
 			return 1.0;
 					
@@ -445,7 +445,7 @@ bool COLLISION_WORLD::CastRay(
 	//  data to set
 	MATHVECTOR<float,3> pos, norm;  float dist;
 	const TRACKSURFACE * surf = TRACKSURFACE::None();
-	btCollisionObject * col = NULL;  const BEZIER * bzr = NULL;
+	const btCollisionObject * col = NULL;  const BEZIER * bzr = NULL;
 	
 	world->rayTest(from, to, res);
 
