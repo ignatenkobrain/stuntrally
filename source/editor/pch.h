@@ -37,8 +37,8 @@
 	#include <process.h>
 #endif
 
-#include "tinyxml.h"
-#include "tinyxml2.h"
+#include <tinyxml.h>
+#include <tinyxml2.h>
 
 ///  Ogre
 #include <Ogre.h>

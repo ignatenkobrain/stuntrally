@@ -68,6 +68,9 @@ if (DEFINED CMAKE_BUILD_TYPE)
 endif()
 
 
+include(FindPkgConfig)
+
+
 if(WIN32)
 	set(Boost_USE_STATIC_LIBS   ON)
 endif(WIN32)
@@ -79,6 +82,16 @@ find_package(Boost COMPONENTS ${BOOST_COMPONENTS} REQUIRED QUIET)
 include_directories(${Boost_INCLUDE_DIRS})
 link_directories(${Boost_LIBRARY_DIRS})
 list(APPEND LIBS ${Boost_LIBRARIES})
+
+
+pkg_search_module(TINYXML REQUIRED QUIET tinyxml)
+include_directories(${TINYXML_INCLUDE_DIRS})
+link_directories(${TINYXML_LIBRARY_DIRS})
+list(APPEND LIBS ${TINYXML_LIBRARIES})
+pkg_search_module(TINYXML2 REQUIRED QUIET tinyxml2)
+include_directories(${TINYXML2_INCLUDE_DIRS})
+link_directories(${TINYXML2_LIBRARY_DIRS})
+list(APPEND LIBS ${TINYXML2_LIBRARIES})
 
 
 # We can significantly reduce deps if only building master server
