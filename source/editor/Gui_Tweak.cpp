@@ -8,7 +8,7 @@
 #include "CGui.h"
 #include "../ogre/common/MultiList2.h"
 #include "../ogre/common/Slider.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include <boost/algorithm/string.hpp>
 #include <boost/lexical_cast.hpp>
 #include <MyGUI.h>

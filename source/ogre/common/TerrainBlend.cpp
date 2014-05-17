@@ -19,7 +19,7 @@
 #include <OgreSceneNode.h>
 #include <OgreTextureManager.h>
 #include <OgreRenderTexture.h>
-#include "../../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include "../../paged-geom/GrassLoader.h"
 using namespace Ogre;
 

@@ -137,6 +137,11 @@ if(BUILD_GAME OR BUILD_EDITOR)
 		list(APPEND LIBS ${${lib}_LIBRARIES})
 	endforeach()
 
+	find_package(SHINY REQUIRED)
+	include_directories(${SHINY_INCLUDE_DIRS})
+	include_directories(${SHINY_PLATFORM_INCLUDE_DIRS})
+	list(APPEND LIBS ${SHINY_LIBRARIES})
+
 	if(UNIX)
 		list(APPEND LIBS "rt")   # For clock_gettime()
 	endif()

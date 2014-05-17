@@ -17,7 +17,7 @@
 
 #include "../network/gameclient.hpp"
 #include "../paged-geom/PagedGeometry.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 
 #include <boost/thread.hpp>
 #include <MyGUI_OgrePlatform.h>

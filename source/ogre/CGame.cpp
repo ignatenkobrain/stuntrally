@@ -21,7 +21,7 @@
 #include <OgrePageManager.h>
 #include <OgreManualObject.h>
 #include <OgreTechnique.h>
-#include "../shiny/Platforms/Ogre/OgreMaterial.hpp"
+#include <shiny/Platforms/Ogre/OgreMaterial.hpp>
 using namespace Ogre;
 
 

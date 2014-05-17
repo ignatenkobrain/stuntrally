@@ -14,7 +14,7 @@
 #include <fstream>
 #include <MyGUI.h>
 #include <OgreRenderTexture.h>
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 using namespace MyGUI;
 using namespace Ogre;
 

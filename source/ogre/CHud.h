@@ -15,7 +15,7 @@
 //#include <OgreOverlayElement.h>
 #include <OgreOverlay.h>
 
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 
 
 namespace Ogre {  class SceneNode;  class SceneManager;  class Viewport;  class ManualObject;  }

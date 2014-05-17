@@ -39,7 +39,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 #include "RandomTable.h"
 #include "../ogre/common/RenderConst.h"
 
-#include "../shiny/Main/Factory.hpp"
+#include "shiny/Main/Factory.hpp"
 
 #include <limits> //for numeric_limits
 

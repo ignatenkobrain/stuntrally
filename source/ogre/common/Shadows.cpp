@@ -27,8 +27,8 @@
 #include <OgreOverlayManager.h>
 #include <OgreStaticGeometry.h>
 
-#include "../../shiny/Main/Factory.hpp"
-#include "../../shiny/Platforms/Ogre/OgreMaterial.hpp"
+#include <shiny/Main/Factory.hpp>
+#include <shiny/Platforms/Ogre/OgreMaterial.hpp>
 
 using namespace Ogre;
 using namespace Forests;

@@ -13,7 +13,7 @@
 #include "../ogre/common/RenderConst.h"
 #include "btBulletCollisionCommon.h"
 #include "btBulletDynamicsCommon.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 
 #include <OgreTimer.h>
 #include <OgreTerrain.h>

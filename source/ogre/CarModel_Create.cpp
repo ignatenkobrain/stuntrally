@@ -15,7 +15,7 @@
 #include "FollowCamera.h"
 #include "CarReflection.h"
 #include "../road/Road.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include "../network/gameclient.hpp"
 #include <OgreRoot.h>
 #include <OgreTerrain.h>

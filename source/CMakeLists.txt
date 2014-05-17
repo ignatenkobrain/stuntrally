@@ -23,10 +23,6 @@ if (BUILD_GAME OR BUILD_EDITOR)
 		list(APPEND OURLIBS ${ourlib})
 	endforeach()
 
-	add_subdirectory(shiny)
-	list(APPEND OURLIBS "shiny")
-	list(APPEND OURLIBS "shiny.OgrePlatform")
-
 	add_subdirectory(sdl4ogre)
 	list(APPEND OURLIBS "sdl4ogre")
 endif()

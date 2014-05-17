@@ -11,7 +11,7 @@
 #include "CarModel.h"
 #include "../road/Road.h"
 #include "../vdrift/car.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 
 #include <OgreRoot.h>
 #include <OgreViewport.h>

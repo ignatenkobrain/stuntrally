@@ -29,8 +29,8 @@ Permission is granted to anyone to use this software for any purpose, including 
 #include "../ogre/common/Def_Str.h"
 #include "../vdrift/pathmanager.h"
 
-#include "../shiny/Main/Factory.hpp"
-#include "../shiny/Platforms/Ogre/OgreMaterial.hpp"
+#include "shiny/Main/Factory.hpp"
+#include "shiny/Platforms/Ogre/OgreMaterial.hpp"
 
 namespace Forests {
 

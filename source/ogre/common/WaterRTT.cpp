@@ -12,7 +12,7 @@
 #include <OgreViewport.h>
 #include <OgreSceneNode.h>
 
-#include "../../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 
 using namespace Ogre;
 

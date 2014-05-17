@@ -7,8 +7,8 @@
 #include <OgreTerrain.h>
 #include <OgreMaterialManager.h>
 
-#include "../../shiny/Platforms/Ogre/OgreMaterial.hpp"
-#include "../../shiny/Main/Factory.hpp"
+#include <shiny/Platforms/Ogre/OgreMaterial.hpp>
+#include <shiny/Main/Factory.hpp>
 using namespace Ogre;
 
 

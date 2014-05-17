@@ -26,7 +26,7 @@
 #include <OgreSceneNode.h>
 #include <OgreMesh.h>
 #include <OgreTimer.h>
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 using namespace Ogre;
 
 

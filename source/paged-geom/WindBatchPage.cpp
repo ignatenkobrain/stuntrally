@@ -27,7 +27,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 #include "WindBatchedGeometry.h"
 #include "../ogre/common/RenderConst.h"
 
-#include "../shiny/Main/Factory.hpp"
+#include "shiny/Main/Factory.hpp"
 
 // to dump the shader source in a file
 #include <fstream>

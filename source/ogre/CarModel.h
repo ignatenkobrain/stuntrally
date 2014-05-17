@@ -7,7 +7,7 @@
 #include <OgreColourValue.h>
 #include "../vdrift/mathvector.h"
 #include "../vdrift/quaternion.h"
-#include "../shiny/Main/MaterialInstance.hpp"
+#include <shiny/Main/MaterialInstance.hpp>
 #include "CarPosInfo.h"
 
 namespace Ogre {  class SceneNode;  class Terrain;  class Camera;  class SceneManager;

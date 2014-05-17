@@ -7,7 +7,7 @@
 
 #include <boost/thread.hpp>
 #include <OgreShadowCameraSetup.h>
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include "../network/networkcallbacks.hpp"
 #include "../oics/ICSChannelListener.h"
 #include "common/PreviewTex.h"

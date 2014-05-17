@@ -15,7 +15,7 @@
 #endif
 #include "Slider.h"
 #include "WaterRTT.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include "../sdl4ogre/sdlinputwrapper.hpp"
 #include <OgreTerrain.h>
 #include <OgreCamera.h>

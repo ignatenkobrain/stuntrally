@@ -31,8 +31,8 @@
 #include <OgreTimer.h>
 #include "Compositor.h"
 
-#include "../shiny/Main/Factory.hpp"
-#include "../shiny/Platforms/Ogre/OgrePlatform.hpp"
+#include <shiny/Main/Factory.hpp>
+#include <shiny/Platforms/Ogre/OgrePlatform.hpp>
 
 #include "../sdl4ogre/sdlinputwrapper.hpp"
 #include "../sdl4ogre/sdlcursormanager.hpp"

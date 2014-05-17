@@ -12,7 +12,7 @@
 #include "../vdrift/quickprof.h"
 #include "../vdrift/dbl.h"
 #include "../network/gameclient.hpp"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include "common/Slider.h"
 #include "SplitScreen.h"
 #include <OgreCamera.h>

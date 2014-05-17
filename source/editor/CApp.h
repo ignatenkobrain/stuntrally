@@ -13,7 +13,7 @@
 #include <OgreRenderTargetListener.h>
 #include <OgreShadowCameraSetup.h>
 #include <OgreTexture.h>
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 
 #define BrushMaxSize  512
 

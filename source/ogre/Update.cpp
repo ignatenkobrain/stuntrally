@@ -16,7 +16,7 @@
 #include "../network/gameclient.hpp"
 #include "LinearMath/btDefaultMotionState.h"
 #include "SplitScreen.h"
-#include "../shiny/Main/Factory.hpp"
+#include <shiny/Main/Factory.hpp>
 #include "../sdl4ogre/sdlinputwrapper.hpp"
 
 #include <OgreParticleSystem.h>

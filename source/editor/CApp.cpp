@@ -13,9 +13,9 @@
 #include "../ogre/common/RenderBoxScene.h"
 #include "settings.h"
 
-#include "../shiny/Main/Factory.hpp"
-#include "../shiny/Platforms/Ogre/OgrePlatform.hpp"
-#include "../shiny/Platforms/Ogre/OgreMaterial.hpp"
+#include <shiny/Main/Factory.hpp>
+#include <shiny/Platforms/Ogre/OgrePlatform.hpp>
+#include <shiny/Platforms/Ogre/OgreMaterial.hpp>
 #include <OgreTerrainPaging.h>
 #include <OgreTerrainGroup.h>
 
