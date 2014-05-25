@@ -19,12 +19,12 @@
 	#include "../../btOgre/BtOgreGP.h"
 #endif
 #include "../../vdrift/pathmanager.h"
-#include "../../paged-geom/GrassLoader.h"
-#include "../../paged-geom/BatchPage.h"
-#include "../../paged-geom/WindBatchPage.h"
-#include "../../paged-geom/ImpostorPage.h"
-#include "../../paged-geom/TreeLoader2D.h"
-#include "../../paged-geom/MersenneTwister.h"
+#include <PagedGeometry/GrassLoader.h>
+#include <PagedGeometry/BatchPage.h>
+#include <PagedGeometry/WindBatchPage.h>
+#include <PagedGeometry/ImpostorPage.h>
+#include <PagedGeometry/TreeLoader2D.h>
+#include <PagedGeometry/MersenneTwister.h>
 #include <boost/filesystem.hpp>
 #include <OgreTimer.h>
 #include <OgreTerrain.h>

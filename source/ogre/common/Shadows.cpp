@@ -14,8 +14,8 @@
 	#include "../../road/Road.h"
 	#include "../SplitScreen.h"
 #endif
-#include "../../paged-geom/PagedGeometry.h"
-#include "../../paged-geom/GrassLoader.h"
+#include <PagedGeometry/PagedGeometry.h>
+#include <PagedGeometry/GrassLoader.h>
 
 #include <OgreTimer.h>
 #include <OgreTerrain.h>

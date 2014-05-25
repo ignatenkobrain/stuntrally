@@ -18,7 +18,7 @@ include_directories(btOgre ogre ogre/common paged-geom road vdrift)
 # Compile our libraries  ------
 if (BUILD_GAME OR BUILD_EDITOR)
 
-	foreach(ourlib  oics paged-geom btOgre)
+	foreach(ourlib  oics btOgre)
 		add_subdirectory(${ourlib})
 		list(APPEND OURLIBS ${ourlib})
 	endforeach()

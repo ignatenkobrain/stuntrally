@@ -7,7 +7,7 @@
 #include "CApp.h"
 #include "CGui.h"
 #include "../road/Road.h"
-#include "../paged-geom/PagedGeometry.h"
+#include <PagedGeometry/PagedGeometry.h>
 #include "../ogre/common/MultiList2.h"
 #include "../ogre/common/RenderBoxScene.h"
 #include "BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"
@@ -15,7 +15,7 @@
 //#include "BulletDynamics/Dynamics/btRigidBody.h"
 #include <shiny/Main/Factory.hpp>
 #include "../sdl4ogre/sdlinputwrapper.hpp"
-#include "../paged-geom/GrassLoader.h"
+#include <PagedGeometry/GrassLoader.h>
 #include <MyGUI.h>
 #include <OgreTerrain.h>
 #include <OgreTerrainGroup.h>

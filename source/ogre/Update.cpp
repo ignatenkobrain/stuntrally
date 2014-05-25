@@ -11,7 +11,7 @@
 #include "../road/Road.h"
 #include "../vdrift/game.h"
 #include "../vdrift/quickprof.h"
-#include "../paged-geom/PagedGeometry.h"
+#include <PagedGeometry/PagedGeometry.h>
 #include "../network/masterclient.hpp"
 #include "../network/gameclient.hpp"
 #include "LinearMath/btDefaultMotionState.h"

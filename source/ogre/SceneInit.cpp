@@ -16,7 +16,7 @@
 #include "common/GraphView.h"
 
 #include "../network/gameclient.hpp"
-#include "../paged-geom/PagedGeometry.h"
+#include <PagedGeometry/PagedGeometry.h>
 #include <shiny/Main/Factory.hpp>
 
 #include <boost/thread.hpp>

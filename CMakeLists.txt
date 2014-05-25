@@ -142,6 +142,10 @@ if(BUILD_GAME OR BUILD_EDITOR)
 	include_directories(${SHINY_PLATFORM_INCLUDE_DIRS})
 	list(APPEND LIBS ${SHINY_LIBRARIES})
 
+	find_package(PagedGeometry REQUIRED)
+	include_directories(${PagedGeometry_INCLUDE_DIRS})
+	list(APPEND LIBS ${PagedGeometry_LIBRARIES})
+
 	if(UNIX)
 		list(APPEND LIBS "rt")   # For clock_gettime()
 	endif()
